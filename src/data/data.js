@@ -1,0 +1,42 @@
+export const data = [
+  {
+    min: 0,
+    max: 18.4,
+    classification: 'Menor que 18,5',
+    info: 'Magreza',
+    obesity: '0',
+    infoClass: 'Medium',
+  },
+  {
+    min: 18.5,
+    max: 24.9,
+    classification: 'Entre 18,5 e 24.9',
+    info: 'Normal',
+    obesity: '0',
+    infoClass: 'Good',
+  },
+  {
+    min: 25,
+    max: 30,
+    classification: 'Entre 25 e 30',
+    info: 'Sobrepeso',
+    obesity: '1',
+    infoClass: 'Low',
+  },
+  {
+    min: 30.5,
+    max: 39.9,
+    classification: 'Maior que 39.9',
+    info: 'Obesidade',
+    obesity: '2',
+    infoClass: 'High',
+  },
+  {
+    min: 40,
+    max: 99,
+    classification: 'Maior que  40',
+    info: 'Obesidade mórbida',
+    obesity: '3',
+    infoClass: 'High',
+  },
+];
